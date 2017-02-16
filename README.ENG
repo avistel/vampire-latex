@@ -1,0 +1,123 @@
+The directory 'vampire' is supposed to contain the following files:
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Demo Characters:
+================
+
+anchra.tex    -  Anch-Ra, a normal Cainite (my current RPG character)
+anch-e.tex    -  Anch-Ra, English version
+caitlin.tex   -  Caitlin, an Elder (Malkavian Primogen of Essen)
+marian.tex    -  Marian, a Sabbat Vampire 
+michelle.tex  -  Michelle D'Aillard, a Ghoul (Anch-Ra's Ghoul)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Empty Character Sheets:
+=======================
+
+vdabogen.tex  -  Vampire: The Dark Ages (German)
+vdasheet.tex  -  Vampire: The Dark Ages (English)
+
+vtmahnen.tex  -  Elysium: The Elder Wars (German)
+vtmelder.tex  -  Elysium: The Elder Wars (English)
+
+vtmbogen.tex  -  Vampire: The Masquerade (German)
+vtmsheet.tex  -  Vampire: The Masquerade (English)
+
+vtmsabbd.tex  -  Sabbat (German)
+vtmsabbe.tex  -  Sabbat (English)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Style Files
+===========
+
+vtmbogen.sty  -  VtM, VDA, Sabbat, Ghouls
+vtmelder.sty  -  EtEW
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Some info on using the files:
+=============================
+
+Put the style files in a directory where LaTeX can find them (or leave
+them in the working directory).
+
+To understand how the sheets work you should look into the demo
+characters.  I'm rather hopeful that you can figure out what the
+commands mean... 
+
+BTW, I used German numbers for the LaTeX commands. 
+
+null = 0, ein(s) = 1, zwei = 2, drei = 3, vier = 4, fuenf = 5, sechs =
+6, sieben = 7, acht = 8, neun = 9, and zehn = 10. 
+
+'pkt' is short for 'Punkt' = point. 
+
+The command  
+
+   \feature{Alertness}\dreipkt\\ 
+
+draws the trait 'Alertness', followed by three filled and two empty
+circles. 
+
+For willpower and humanity I chose the command \wNUMBER and \mNUMBER,
+with NUMBER being any of the above German numbers.
+
+  \wacht     means: Willpower of 8
+  \msieben   means: Humanity of 7
+
+For the Bloodpool you also have to choose the \wNUMBER command, as it
+draws circles above squares, while the \hNUMBER command omits the boxes. 
+
+The empty sheet files should not be altered as there are a little
+different commands from the already filled in demo characters.  (E.g. 
+\charintro for the empty sheet becomes \charinfo in the filled-in
+sheets). 
+
+If you want to set up a character yourself you should copy the
+appropriate demo character and change the names etc.  Hm. 
+Unfortunatelly I haven't set up a character for V:DA yet... 
+
+By the way, wherever you find a line 
+
+  \nofeature\\ 
+
+or 
+
+   \leerzeile\\ (= empty line)
+
+you can delete this and insert a line 
+
+   \feature{Something}\zweipkt\\    (or another \NUMBERpkt)
+
+or
+
+   \merit{Something}{1}\\
+
+   \flaw{Something}{--2}\\
+
+   \ritual{Whatever}{3}\\
+
+The number options in the \merit{}{} and \flaw{}{} commands give the
+points associated with the respective merit or flaw, while with the
+\ritual{}{} command the number indicates the level of the ritual. 
+
+The \\ indicates a linebreak and has to be omitted at every last
+line (see the demo files for reference).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+All of the Vampire files are designed by me. Questions or suggestions are
+welcome.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Clear Ether!
+Stayka (aka A.C.Newton, Captain of Ethership "Meteor")
+
+-----------------------------------------------------------------------
+E-Mail: stayka@stayka.de   --------    Site Index: http://www.stayka.de
+ ---------  Stayka's WoD Stuff at http://sqhome.de/wod/  ----------
+-----------------------------------------------------------------------
