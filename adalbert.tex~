@@ -11,19 +11,19 @@
 % ----------------------------------
 \begin{document}
 
-\charactername{Vampire: The Dark Ages}{Berengar Von Dohna}
+\charactername{Adalbert of Prague}
 
 \vspace{2ex}
 \characterintro{
 \charinfo{Clan}{Ventrue}\\[0.3ex]
-\charinfo{Sire}{Heinrich Von Achern}\\[0.3ex]
-\charinfo{Generation}{8.}
+\charinfo{Sire}{Wiprecht Von L\"ubben}\\[0.3ex]
+\charinfo{Generation}{11.}
 }
 \hfill
 \characterintro{
 \charinfo{Nature}{Protector}\\[0.3ex]
 \charinfo{Demeanor}{Autocrat}\\[0.3ex]
-\charinfo{Concept}{Warmaster}
+\charinfo{Concept}{Grey Eminence}
 }
 \hfill
 \characterintro{
@@ -32,149 +32,127 @@
 \charinfo{Haven}{...}
 }
 
-\vspace{2ex}
+\vspace{1ex}
 %----------------------------------------------------------------------
 \begin{center}{\huge\bf{}Attributes}\end{center}
 
 \vspace{-0.5ex}
 \attributes{Physical}{
 \feature{Strength}\dreipkt\\
-\feature{Dexterity}\vierpkt\\
+\feature{Dexterity}\dreipkt\\
 \feature{Stamina}\dreipkt
 }
 \hfill
 \attributes{Social}{
 \feature{Charisma}\dreipkt\\
-\feature{Manipulation}\dreipkt\\
-\feature{Appearance}\zweipkt
+\feature{Manipulation}\vierpkt\\
+\feature{Appearance}\dreipkt
 }
 \hfill
 \attributes{Mental}{
-\feature{Perception}\zweipkt\\
-\feature{Intelligence}\zweipkt\\
+\feature{Perception}\vierpkt\\
+\feature{Intelligence}\vierpkt\\
 \feature{Wits}\zweipkt
 }
 
-\vspace{2ex}
+\vspace{1ex}
 %----------------------------------------------------------------------
 \begin{center}{\huge\bf{}Abilities}\end{center}
 
 \vspace{-0.5ex}
 \abilities{Talents}{
-%\feature{Acting}\nullpkt\\
-\feature{Alertness}\dreipkt\\
-%\feature{Athletics}\nullpkt\\
+\feature{Alertness}\zweipkt\\
 \feature{Brawl}\zweipkt\\
-\feature{Dodge}\vierpkt\\
-%\feature{Empathy}\nullpkt\\
-\feature{Expression}\einpkt\\
-\feature{Franchise}\zweipkt\\
+\feature{Dodge}\dreipkt\\
+\feature{Empathy}\zweipkt\\
+\feature{Expression}\dreipkt\\
 \feature{Intimidation}\dreipkt\\
-\feature{Intrigue}\zweipkt\\
-%\feature{Larceny}\nullpkt\\
-\feature{Leadership}\dreipkt\\
-\feature{Subterfuge}\zweipkt\\
-%\nofeature\\
-%\nofeature\\
-%\nofeature
+\feature{Leadership}\zweipkt\\
+\feature{Subterfuge}\dreipkt
 }
 \hfill
 \abilities{Skills}{
-\feature{Animal Ken}\einpkt\\
-\feature{Archery}\dreipkt\\
-%\feature{Crafts}\nullpkt\\
-%\feature{Etiquette}\nullpkt\\
-%\feature{Herbalism}\nullpkt\\
-\feature{Melee}\fuenfpkt\\
-%\feature{Music}\nullpkt\\
-\feature{Ride}\dreipkt\\
-%\feature{Stealth}\nullpkt\\
-\feature{Survival}\einpkt\\
-\feature{Warfare}\dreipkt
-%\nofeature\\
-%\nofeature\\
-%\nofeature
+\feature{Commerce}\einpkt\\
+\feature{Etiquette}\zweipkt\\
+\feature{Meditation}\zweipkt\\
+\feature{Melee \scriptsize{(daggers)}}\dreipkt
 }
 \hfill
 \abilities{Knowledges}{
 \feature{Academics}\einpkt\\
-%\feature{Hearth Wisdom}\nullpkt\\
-\feature{Investigation}\einpkt\\
+\feature{Cainite Lore}\zweipkt\\
+\feature{Enigmas \scriptsize{(ciphers)}}\zweipkt\\
+\feature{Investigation}\dreipkt\\
 \feature{Law}\einpkt\\
 \feature{Linguistics}\dreipkt\\
-%\feature{Medicine}\nullpkt\\
-\feature{Occult}\einpkt\\
-\feature{Politics}\zweipkt\\
-%\feature{Science}\nullpkt\\
-\feature{Theology}\einpkt\\
+\feature{Occult}\dreipkt\\
+\feature{Politics}\vierpkt\\
+\feature{Seneschal}\zweipkt\\
+\feature{Theology}\dreipkt
 }
 
-\vspace{2ex}
+\vspace{1ex}
 %----------------------------------------------------------------------
 \begin{center}{\huge\bf{}Advantages}\end{center}
 
 \vspace{-0.5ex}
 \advantages{Disciplines}{
-\feature{Dominate}\zweipkt\\
+\feature{Dominate}\dreipkt\\
 \feature{Fortitude}\dreipkt\\
-\feature{Potence}\zweipkt\\
-\nofeature\\
-\nofeature\\
-\nofeature
+\feature{Presence}\vierpkt\\
+\feature{Auspex}\dreipkt\\
+\feature{Obfuscate}\einpkt
 }
 \hfill
 \advantages{Background}{
-\feature{Generation}\vierpkt\\
+\feature{Generation}\einpkt\\
 \feature{Retainer}\zweipkt\\
-\feature{Military Force}\zweipkt\\
-\feature{Herd}\einpkt\\
-\feature{Mentor}\einpkt\\
-\feature{Allies}\einpkt\\
-\feature{Status}\einpkt\\
-\feature{Contacts}\einpkt
+\feature{Herd}\zweipkt\\
+\feature{Allies}\zweipkt\\
+\feature{Domain}\zweipkt\\
+\feature{Mentor}\zweipkt\\
+\feature{Resources}\dreipkt
 }
 \hfill
 \advantages{Merits}{
 \mbox{~}\\
 %\feature{Conviction}\einpkt\\
-\feature{Conscience}\zweipkt\\
+\feature{Conscience}\dreipkt\\
 \mbox{~}\\
 %\feature{Instinct}\einpkt\\
-\feature{Self-Control}\dreipkt\\
+\feature{Self-Control}\vierpkt\\
 \mbox{~}\\
 \feature{Courage}\dreipkt\\
 \mbox{~}
 }
 
-\vspace{2ex}
+\vspace{1ex}
 %----------------------------------------------------------------------
 \begin{center}{\LARGE\bf{}Other Traits}\end{center}
 
 \vspace{-0.5ex}
-\begin{minipage}{7.7cm}
+\begin{minipage}{5.5cm}
 \otherstuff{Merits + Flaws}{
-\vorzug{Blush of Health}{--2}\\
-\vorzug{Crusader}{--1}\\
-\vorzug{Noble}{--1}\\
-\vorzug{Prestigious Order}{--1}\\
-\vorzug{Prestigious Sire}{--1}\\
-\fehler{Dark Secret}{1}\\
-\fehler{Nightmares}{1}\\
-\fehler{Road Initiate}{1}
+\merit{Common Sense}{--1}\\
+\merit{Crusader}{--1}\\
+\merit{Eidetic Memory}{--2}\\
+\flaw{Ward}{1}
 }
 \end{minipage}
 \hfill
 \krempel{
-\road{Road of}{Chivalry}\\[1ex]
-\mfuenf}{
+\road{Road of}{Humanity}\\[1ex]
+\msechs}{
 Willpower\\[1ex]
 \wsechs}{
 Blood Pool\\[1ex]
 \blutvorrat}
 \hfill
-\healthexp{32}
+\health
 
 \vampirepoints
-\
+\newpage
+\section{Alter Ego}
+
 
 \end{document}
